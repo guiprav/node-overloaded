@@ -1,0 +1,14 @@
+{
+  "name": "overloaded",
+  "version": "1.0.0",
+  "author": "Guilherme Prá Vieira (super.driver.512@gmail.com)",
+  "license": "AGPL-3.0+",
+  "homepage": "https://github.com/n2liquid/node-overloaded#readme",
+  "bugs": {
+    "url": "https://github.com/n2liquid/node-overloaded/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n2liquid/node-overloaded.git"
+  }
+}
