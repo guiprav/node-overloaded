@@ -2,6 +2,29 @@
 
 No time to explain. Code is worth a thousand words.
 
+## Installation
+
+```sh
+$ npm install n2liquid/node-overloaded
+```
+
+## Example usage
+
+```js
+let overloaded = require('overloaded');
+
+function scroll() {
+    let args = overloaded(arguments, {
+        1: ['y'],
+        2: ['x', 'y'],
+    });
+
+    args.x = args.x || 0;
+
+    // Scroll something to (x, y).
+}
+```
+
 ## License
 
 ![](https://www.gnu.org/graphics/agplv3-155x51.png)
